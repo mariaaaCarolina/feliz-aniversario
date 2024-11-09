@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Músicas que me fazem lembrar de você!</title>
+        <style>
+            /* Estilos gerais */
+            body {
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                background-color: #fce4ec;
+                color: #333;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                max-width: 95%;
+                margin: 0 auto;
+                padding: 20px;
+                text-align: center;
+            }
+
+            h1 {
+                color: #d81b60;
+                font-size: 2.5em;
+                font-weight: bold;
+                margin-top: 20px;
+                text-shadow: 2px 2px #f48fb1;
+            }
+
+            h6 {
+                color: red;
+                font-weight: bold;
+                text-shadow: 0.5px 0.5px #f48fb1;
+            }
+
+            /* Estilos da playlist */
+            .playlist {
+                margin-top: 20px;
+            }
+
+            .card {
+                background: linear-gradient(135deg, #f8bbd0, #f48fb1);
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+                padding: 15px;
+                margin: 15px 0;
+                text-align: center;
+                transition: transform 0.15s ease, box-shadow 0.15s ease;
+                color: #ffffff;
+            }
+
+            .card:active {
+                transform: scale(0.98);
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
+            .card a {
+                color: #ffffff;
+                font-size: 1.1em;
+                font-weight: bold;
+                text-decoration: none;
+                transition: color 0.2s;
+                /* text-shadow: -1px -1px 0 #ff006f,
+                     1px -1px 0 #ff006f,
+                    -1px 1px 0 #ff006f,
+                    1px 1px 0 #ff006f;  */
+            }
+
+            .card a:hover {
+                color: #e91e63;
+            }
+
+            .card p {
+                margin: 10px 0 0;
+                font-style: italic;
+                color: #ffe0e6;
+                font-weight: 500;
+            }
+
+            /* Seção de Notas */
+            .notes-section {
+                margin-top: 30px;
+            }
+
+            .text-area {
+                width: 100%;
+                height: 100px;
+                padding: 10px;
+                border-radius: 8px;
+                border: 2px solid #f48fb1;
+                font-size: 15px;
+                margin-top: 10px;
+                background-color: #fff0f5;
+                color: #d81b60;
+                transition: border-color 0.2s;
+            }
+
+            .text-area:focus {
+                outline: none;
+                border-color: #e91e63;
+            }
+
+            .submit-btn {
+                margin-top: 12px;
+                padding: 8px 20px;
+                background-color: #e91e63;
+                color: #ffffff;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer;
+                font-size: 1em;
+                font-weight: bold;
+                transition: background-color 0.2s;
+            }
+
+            .submit-btn:hover {
+                background-color: #d81b60;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Músicas que me fazem lembrar de você!</h1>
+
+            <div class="playlist">
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/2mlsK27VNUj8y08BvtIbXu?si=17a847e4e03348ac"
+                        target="_blank"
+                        >Pontos de Exclamação - Jovem Dionísio</a
+                    >
+                    <p>0:00 - 0:32</p>
+                    <p>"que o destino fez nos conhecer"</p>
+                </div>
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/006pMMCuRo2TFjh8sNGSov?si=418d0ac0e6034ae2"
+                        target="_blank"
+                        >Dias de luta, Dias de glória - Charlie B. Jr.</a
+                    >
+                    <p>0:15 - 01:14</p>
+                    <p>"histórias, nossas histórias..</p>
+                </div>
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/6WlyTsLonLLiKYigIANVA4?si=0d92ba3f8d64407d"
+                        target="_blank"
+                        >A Droga do Amor - Ari</a
+                    >
+                    <p>01:25 - 01:56</p>
+                </div>
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/2NnSYdNhqye00il4nRB4tj?si=62dcd0a9c8a44343"
+                        target="_blank"
+                        >Nocaute - Jorge e Mateus</a
+                    >
+                    <p>01:48 - 01:58</p>
+                    <p>"Eu só sei que a vida é mais colorida com você"</p>
+                </div>
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/1ZycJRpLOazlLcoFGxGROO?si=e2a2ff52f6b04801"
+                        target="_blank"
+                        >Walking In The Wind - One Direction</a
+                    >
+
+                    <p>
+                        "Just close your eyes and see, and i'll be by your side
+                        any time you're needing me"
+                    </p>
+                </div>
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/5GHA824FwkHeBl5u1T6kLj?si=3c04807893004568"
+                        target="_blank"
+                        >Namorada Reserva - Hugo e Guilherme</a
+                    >
+                    <p>Essa é auto-explicativa!</p>
+                </div>
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/2KGv51jgAz8OTjNPyRryfq?si=8ec5b19619ea4e9f"
+                        target="_blank"
+                        >Pra Sempre Com Você - Jorge e Mateus</a
+                    >
+                    <p>
+                        Sempre que escuto eles lembro de você, independente da
+                        letra
+                    </p>
+                </div>
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/69ZsxJHVrQ2VXNk7urPNQC?si=8a88741aaa8344a6"
+                        target="_blank"
+                        >A Hora É Agora - Jorge e Mateus</a
+                    >
+                    <p>
+                        Em lembrança aos nossos "shows"(áudios), espero um dia
+                        estar em um show deles com você para darmos a vida
+                        cantando essa.
+                    </p>
+                </div>
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/4Rf22AVivOdyLQZBo72Ulx?si=3b1cf446a4694a43"
+                        target="_blank"
+                        >Garotas Não Merecem Chorar - Luan Santana</a
+                    >
+                    <p>
+                        Lembro de nós na sua casa tomando sorvete e cantando
+                        essa com a Natália
+                    </p>
+                </div>
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/7AcefBF4taQY42JqWnfhTV?si=6184a67ab2524385"
+                        target="_blank"
+                        >Camisa 10 - Turma do Pagode</a
+                    >
+                    <p>
+                        Fuçando a galeria eu achei um vídeo muito bom com essa
+                        música, acho que valia por ela aqui também
+                    </p>
+                </div>
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/2xebCnKCjYWBhJ4Ai8hO5E?si=22e4392a46414170"
+                        target="_blank"
+                        >Set dos Casados - Mc Kevin, Mc Davi...</a
+                    >
+                    <p>
+                        Você não lembra e eu não tenho mais o vídeo, mas
+                        gravamos um muito bom com essa música e ele ficou
+                        tenebroso, toda vez que escuto essa eu lembro do vídeo
+                    </p>
+                </div>
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/1XXimziG1uhM0eDNCZCrUl?si=ac88a6741b9c49ad"
+                        target="_blank"
+                        >Up - Card B.</a
+                    >
+                    <p>
+                        Essa é iconica, desculpa, aquele vídeo é um patrimônio!
+                    </p>
+                </div>
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/7vLG0D8ouHd4brF5TVJQya?si=ba0180b3df014640"
+                        target="_blank"
+                        >Malbec - Henrique e Diego</a
+                    >
+                    <p>
+                        Quando escuto essa me dá vontade de pegar o celular e te
+                        mandar um áudio cantando
+                    </p>
+                </div>
+                <div class="card">
+                    <a
+                        href="https://open.spotify.com/intl-pt/track/2QLbRVzixE282JSQjBz2DG?si=d9097d082c2645b9"
+                        target="_blank"
+                        >Liberdade - Mc Don Juan</a
+                    >
+                    <p>0:30 - 0:56</p>
+                    <p>
+                        Uma representando as vezes que nos arriscavámos gravando
+                        nossos tiktoks
+                    </p>
+                </div>
+            </div>
+            <h5>** os nomes das músicas são links **</h5>
+        </div>
+    </body>
+</html>
